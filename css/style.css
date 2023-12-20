@@ -1,0 +1,49 @@
+.box {
+  background-image: repeating-conic-gradient(
+    rgb(77, 28, 141) 10%,
+    rgb(46, 46, 14) 20%
+  );
+}
+
+.box1 {
+  background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+
+.box2 {
+  background-image: radial-gradient(red, green, blue);
+}
+
+.box3 {
+  background-image: linear-gradient(red, yellow, blue);
+}
+
+.box4 {
+  background-image: conic-gradient(red, yellow, green);
+}
+
+.box6 {
+  background-image: conic-gradient(
+    rgb(26, 4, 61),
+    rgb(168, 30, 138),
+    rgb(120, 172, 120)
+  );
+}
+.box7 {
+  background-image: repeating-radial-gradient(
+    rgb(62, 15, 173),
+    yellow 10%,
+    rgb(196, 21, 137) 15%
+  );
+}
+
+p {
+  color: azure;
+}
+
+/*Background-repeat:  - arxa fonda təsvirin təkrarlanmasına nəzarət etmək üçün istifadə olunur
+background-repeat: repeat;
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+background-repeat: no-repeat;
+background-repeat: space;
+background-repeat: round;*/
